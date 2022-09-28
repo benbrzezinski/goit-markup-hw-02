@@ -1,8 +1,59 @@
 :root {
-  --main-text-color: #757575;
+  --main-text-color: #212121;
+  --main-background-color: #fff;
+  --main-selection-color: #2196f3;
 }
 
 body {
   font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
   color: var(--main-text-color);
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: #fff;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.first-three-letters {
+  color: #2196f3;
+}
+
+address {
+  color: #fff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.e-mail-footer {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.tel-footer {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.e-mail-footer:hover,
+.e-mail-footer:focus {
+  color: var(--main-selection-color);
+}
+
+.tel-footer:hover,
+.tel-footer:focus {
+  color: var(--main-selection-color);
 }
