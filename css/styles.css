@@ -9,6 +9,64 @@ body {
   color: var(--main-text-color);
 }
 
+ul {
+  list-style-type: none;
+}
+
+.top-div {
+  background-color: #2f303a;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.main-button {
+  background-color: var(--main-selection-color);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.main-button-text {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  align-items: center;
+}
+
+.middle-div h4 {
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.middle-div p {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.h2-main-page {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 header {
   background-color: var(--main-background-color);
 }
@@ -16,18 +74,16 @@ header {
 .logo-header {
   color: #000;
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.25);
 }
 
 .main-nav a {
   color: var(--main-text-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -42,8 +98,6 @@ header {
 
 .contacts-header a {
   color: #757575;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -63,7 +117,6 @@ footer {
 .logo-footer {
   color: #fff;
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -77,9 +130,7 @@ footer {
 
 address {
   color: #fff;
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -87,9 +138,6 @@ address {
 
 .contacts-footer a {
   color: rgba(255, 255, 255, 0.6);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
