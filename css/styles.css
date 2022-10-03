@@ -7,6 +7,7 @@
 body {
   font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
   color: var(--main-text-color);
+  background-color: var(--main-background-color);
 }
 
 ul {
@@ -67,8 +68,32 @@ h1 {
   letter-spacing: 0.03em;
 }
 
-header {
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team figure {
   background-color: var(--main-background-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  width: 270px;
+  height: 368px;
+}
+
+.our-team h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team p {
+  color: #757575;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .logo-header {
@@ -79,7 +104,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
-  text-shadow: rgba(0, 0, 0, 0.25);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .main-nav a {
