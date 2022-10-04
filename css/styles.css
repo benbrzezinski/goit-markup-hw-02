@@ -14,7 +14,7 @@ ul {
   list-style-type: none;
 }
 
-.top-div {
+.h1-div {
   background-color: #2f303a;
 }
 
@@ -28,7 +28,7 @@ h1 {
   text-transform: uppercase;
 }
 
-.top-div button {
+.h1-div button {
   background-color: var(--main-selection-color);
   cursor: pointer;
   color: #fff;
@@ -39,14 +39,14 @@ h1 {
   letter-spacing: 0.06em;
 }
 
-.middle-div h4 {
+.types-div h4 {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.middle-div p {
+.types-div p {
   color: #757575;
   font-size: 14px;
   line-height: 1.7;
@@ -98,6 +98,18 @@ h1 {
   color: #fff;
   background-color: var(--main-selection-color);
   cursor: pointer;
+}
+
+.projects-div h3 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-div p {
+  color: #757575;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 
 .logo-header {
