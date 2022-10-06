@@ -22,7 +22,7 @@ h1 {
   color: #fff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -35,13 +35,13 @@ h1 {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.9;
+  line-height: 1.88;
   letter-spacing: 0.06em;
 }
 
 .types-div h4 {
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -49,13 +49,13 @@ h1 {
 .types-div p {
   color: #757575;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .h2-main-page {
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -71,14 +71,14 @@ h1 {
 .our-team h3 {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .our-team p {
   color: #757575;
-  line-height: 1.2;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -89,7 +89,7 @@ h1 {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.63;
   letter-spacing: 0.03em;
 }
 
@@ -108,7 +108,7 @@ h1 {
 
 .projects-div p {
   color: #757575;
-  line-height: 1.9;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
@@ -117,7 +117,7 @@ h1 {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -127,7 +127,7 @@ h1 {
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -141,7 +141,7 @@ h1 {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -160,7 +160,7 @@ footer {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -173,14 +173,14 @@ address {
   color: #fff;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .contacts-footer a {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
